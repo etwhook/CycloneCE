@@ -6,7 +6,7 @@ Cyclone UM Native Cheat Engine, Work In Progress.
 ## 👁 Examples
 
 ```cpp
-auto processId = engine::proc::getProcId(L"notepad.exe");
+	auto processId = engine::proc::getProcId(L"notepad.exe");
 	auto process = engine::proc::openProcess(processId);
 	if (!processId)
 		return -1;
